@@ -1,5 +1,6 @@
 package mx.com.cubozsoft.apprentice;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,20 +28,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
+
         switch (v.getId()){
             case R.id.pokelist_1:
-                Toast.makeText(this,getString(R.string.pokemon1_name),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,getString(R.string.pokemon1_name),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.pokelist_2:
-                Toast.makeText(this,getString(R.string.pokemon2_name),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,getString(R.string.pokemon2_name),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.pokelist_3:
-                Toast.makeText(this,getString(R.string.pokemon3_name),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,getString(R.string.pokemon3_name),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.pokelist_4:
-                Toast.makeText(this,getString(R.string.pokemon4_name),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,getString(R.string.pokemon4_name),Toast.LENGTH_SHORT).show();
                 break;
         }
 
+        Intent detailIntent = new Intent(this,Pokemon_detal.class);
+        startActivity(detailIntent);
     }
 }
