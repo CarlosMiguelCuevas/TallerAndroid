@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Apprentice</string>
+    <string name="pokemon1_name">Bulbasaur</string>
+    <string name="pokemon1_desc">Nobody likes it</string>
 </resources>
