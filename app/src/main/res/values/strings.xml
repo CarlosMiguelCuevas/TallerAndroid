@@ -2,4 +2,10 @@
     <string name="app_name">Apprentice</string>
     <string name="pokemon1_name">Bulbasaur</string>
     <string name="pokemon1_desc">Nobody likes it</string>
+    <string name="pokemon2_name">Squirtle</string>
+    <string name="pokemon2_desc">lets relax</string>
+    <string name="pokemon3_name">Charmander</string>
+    <string name="pokemon3_desc">Fire and Blood</string>
+    <string name="pokemon4_name">Pikachu</string>
+    <string name="pokemon4_desc">Everybody likes it</string>
 </resources>

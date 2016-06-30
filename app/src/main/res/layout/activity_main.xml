@@ -7,7 +7,9 @@
     android:orientation="vertical"
     tools:context="mx.com.cubozsoft.apprentice.MainActivity">
 
-    <ImageView android:layout_height="0dp"
+    <ImageView
+        android:id="@+id/pokelist_1"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:src="@drawable/bolba"/>
@@ -16,7 +18,9 @@
         android:layout_height="1dp"
         android:background="@android:color/darker_gray"/>
 
-    <ImageView android:layout_height="0dp"
+    <ImageView
+        android:id="@+id/pokelist_2"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:src="@drawable/squirtle"/>
@@ -24,7 +28,9 @@
         android:layout_height="1dp"
         android:background="@android:color/darker_gray"/>
 
-    <ImageView android:layout_height="0dp"
+    <ImageView
+        android:id="@+id/pokelist_3"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:src="@drawable/charmander"/>
@@ -32,7 +38,9 @@
         android:layout_height="1dp"
         android:background="@android:color/darker_gray"/>
 
-    <ImageView android:layout_height="0dp"
+    <ImageView
+        android:id="@+id/pokelist_4"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:src="@drawable/pika"/>
