@@ -17,8 +17,7 @@
 
     <TextView
         android:id="@+id/pokeName_detail"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        style="@style/commonSettings"
         android:text="@string/pokemon1_name"
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/pokeImg_detail"
@@ -28,8 +27,7 @@
 
     <TextView
         android:id="@+id/pokeDesc_detail"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        style="@style/commonSettings"
         android:text="@string/pokemon1_desc"
         android:inputType="textMultiLine"
         android:layout_alignParentRight="true"
